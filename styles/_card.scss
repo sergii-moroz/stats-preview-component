@@ -1,0 +1,120 @@
+.card {
+    background-color: $card-background;
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    max-width: 78%;
+    max-width: 1140px;
+    border-radius: 1.0rem;
+    margin: 5%;
+}
+
+.card-text-part {
+    height: auto;
+    padding: 6%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .block {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        width: 85%;
+    }
+    
+    h1 {
+        color: $main-heading;
+        font-size: 3.4rem;
+        margin-bottom: 2.8rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.6px;
+    }
+
+    span {
+        color: $accent;
+    }
+
+    .text {
+        color: $main-paragraph;
+        font-size: 1.4rem;
+        line-height: 2.4rem;
+        letter-spacing: 0.5px;
+    }
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4.0rem;
+    
+    
+}
+
+.stat-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stat-num {
+    color: $main-heading;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.stat-title {
+    color: $stat-heading;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 1.2rem;
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 0.8rem;
+}
+
+
+.card-img-part {
+    position: relative;
+    background-color: $accent;
+    border-radius: 0 1rem 1rem 0;
+
+    /*border: 2px solid yellow;
+    width: 100%;
+    background-image: url('../images/image-header-desktop.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsla(277, 64%, 61%, 1);
+    background-blend-mode: multiply;
+    filter: contrast(0.9);*/
+}
+
+img {
+    //border-radius: 0 1rem 1rem 0;
+    mix-blend-mode: multiply;
+    height: 100%;
+}
+
+.img-mobile {
+    display: none;
+}
+
+
+.pink {
+    background-color: hsl(277, 64%, 61%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.25;
+    border-radius: 0 1rem 1rem 0;
+}
+
+/*
+background-image: url('../images/image-header-desktop.jpg');
+background-color: $accent;
+background-blend-mode: multiply;
+width: 100%;
+background-size: contain;*/

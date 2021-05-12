@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Inter', sans-serif;
+    
+    background-color: $main-background;
+}
+
+.container {
+    //border: 1px solid white;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
