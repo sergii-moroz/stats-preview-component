@@ -29,7 +29,7 @@ Users should be able to:
 
 ## My process
 
-[YouTube]()
+[YouTube](https://youtu.be/zaHdmJf_ld4)
 
 ### Built with
 
@@ -39,5 +39,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [YouTube]()
-- Frontend Mentor - [Sergii-Moroz](https://www.frontendmentor.io/profile/sergii-moroz)
+- Website - [YouTube](https://youtu.be/zaHdmJf_ld4)
+- Frontend Mentor - [link](https://www.frontendmentor.io/profile/sergii-moroz)
